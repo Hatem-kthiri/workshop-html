@@ -1,0 +1,115 @@
+<html>
+  <head>
+    <title>Workshop Html</title>
+
+    <link rel="shortcut icon" href="assets/icon.png" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- list  -->
+        <ul type="circle">
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Work</li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ol type="i">
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Work</li>
+          <li>Contact</li>
+        </ol>
+      </nav>
+    </header>
+    <main>
+      <table border="1">
+        <th>Name</th>
+        <th>Last Name</th>
+        <th>Age</th>
+        <tbody>
+          <tr>
+            <td>Hatem</td>
+            <td>Kthiri</td>
+            <td>28</td>
+          </tr>
+          <tr>
+            <td>Achraf</td>
+            <td>Harbi</td>
+            <td>32</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <section>
+        <h1>About us</h1>
+        <!-- Heading H1  -->
+        <h1>Hello Groupe F4</h1>
+        <article>
+          Lorem ipsum dolor sit amet consectetur <br />adipisicing elit. <br />
+          Unde aperiam culpa maxime? <b>Quam vel culpa fuga,</b> saepe
+          voluptatum libero provident inventore, qui minima a, quisquam
+          voluptatem fugit! Odit, autem
+          <span>dolorum!</span>
+        </article>
+
+        <hr />
+        <!-- ctrl + : -->
+        <!-- img tag  -->
+        <img
+          src="assets/icon.png"
+          alt="this is an attribute description about image"
+        />
+      </section>
+      <section>
+        <h1>our Work</h1>
+        <!-- anchor tag  -->
+        <a href="contact.html" target="_blank">Visit Contact Page</a>
+        <!-- video tag  -->
+        <video controls width="320" height="240" autoplay="true">
+          <source src="assets/video.mp4" />
+        </video>
+      </section>
+      <section id="contact">
+        <h1>Contact</h1>
+
+        <form>
+          <label>Name : </label>
+          <input type="text" placeholder="Name" /><br />
+          <label>Email : </label>
+          <input type="email" placeholder="your email " /><br />
+          <label>password : </label>
+          <input type="password" placeholder="your password " />
+          <textarea></textarea>
+          <input type="button" value="Submit" />
+          <label>Checkbox</label>
+          <input type="checkbox" />
+          <label>Male : </label>
+          <input type="radio" name="gender" value="male" />
+          <label>Female</label>
+          <input type="radio" name="gender" value="female" />
+          <select name="">
+            <option value="">Tunis</option>
+            <option value="">Sousse</option>
+            <option value="">Kef</option>
+            <option value="">Tatouine</option>
+          </select>
+          <input type="date" name="" id="" />
+          <input type="datetime-local" name="" id="" />
+          <input type="color" name="" id="" />
+        </form>
+      </section>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/z_HgVIU0gHM?si=UK5uQSeMkhb49-Sp"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </main>
+    <footer>Copyright By Gomycode 2025</footer>
+  </body>
+</html>
